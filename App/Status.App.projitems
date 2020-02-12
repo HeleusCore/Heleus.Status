@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>{98E1B380-87B9-4F3E-9579-0ECE0ED21E32}</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Heleus.Apps.Status</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Page\TestPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UIApp\UIApp.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UIApp\UIAppSettings.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UIApp\Theme.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Page\AboutPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Page\SettingsPage.cs" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\debuginfo.txt">
+      <Link>debuginfo.txt</Link>
+    </EmbeddedResource>
+    <Compile Include="$(MSBuildThisFileDirectory)HeleusClientResponseExtension.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)StatusApp.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Page\StatusPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SubscriptionInfo.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Subscriptions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)StatusUpdate.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SubsriptionBatch.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Status.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MessagePageHandler.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MessageView.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Page\StatusAccountPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Page\SubscriptionsPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Page\ExplorePage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MessageSentEvent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SubscriptionEvent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Page\MoreUpdatesPage.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UpdateButtonRow.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Page\WritePage.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Translation\en.txt" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)..\..\Heleus.AppBase\AppTemplate\App\Translation\en.common.txt">
+      <Link>Translation\en.common.txt</Link>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

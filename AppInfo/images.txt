@@ -1,0 +1,19 @@
+list-ul.png => Platforms/iOS/Resources/icons/list-ul.png ; blend 25x25 25x25;
+list-ul.png => Platforms/iOS/Resources/icons/list-ul@2x.png ; blend 50x50 50x50;
+list-ul.png => Platforms/iOS/Resources/icons/list-ul@3x.png ; blend 75x75 75x75;
+
+search.png => Platforms/iOS/Resources/icons/search.png ; blend 25x25 25x25;
+search.png => Platforms/iOS/Resources/icons/search@2x.png ; blend 50x50 50x50;
+search.png => Platforms/iOS/Resources/icons/search@3x.png ; blend 75x75 75x75;
+
+user.png => Platforms/iOS/Resources/icons/user.png ; blend 25x25 25x25;
+user.png => Platforms/iOS/Resources/icons/user@2x.png ; blend 50x50 50x50;
+user.png => Platforms/iOS/Resources/icons/user@3x.png ; blend 75x75 75x75;
+
+pencil.png => Platforms/iOS/Resources/icons/pencil.png ; blend 25x25 25x25;
+pencil.png => Platforms/iOS/Resources/icons/pencil@2x.png ; blend 50x50 50x50;
+pencil.png => Platforms/iOS/Resources/icons/pencil@3x.png ; blend 75x75 75x75;
+
+sliders.png => Platforms/iOS/Resources/icons/sliders.png ; blend 25x25 25x25;
+sliders.png => Platforms/iOS/Resources/icons/sliders@2x.png ; blend 50x50 50x50;
+sliders.png => Platforms/iOS/Resources/icons/sliders@3x.png ; blend 75x75 75x75;

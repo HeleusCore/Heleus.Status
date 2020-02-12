@@ -1,0 +1,12 @@
+{
+  "fullname": "Heleus Status",
+  "name": "Status",
+  "description": "Always up to date.",
+  "developer": "Heleus Core",
+  "domain": "heleuscore.com",
+  "link": "https://heleuscore.com/status/",
+  "package": "com.heleuscore.status",
+  
+  "primarycolor":"60,160,240",
+  "secondarycolor":"0,120,250"
+}

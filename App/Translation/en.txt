@@ -1,0 +1,77 @@
+﻿App.Name: Status
+App.FullName: Heleus Status
+App.Developer: Heleus Core
+App.Description: Always up to date.
+App.Link: https://heleuscore.com/status/
+App.Version: 0.1.0 (build 1)
+App.Scheme: heleusstatus
+
+## PAGES
+#
+
+StatusPage.Title: Heleus Status
+StatusPage.Status: Welcome
+StatusPage.StatusInfo: Thank you for using Heleus Status. Always get the latest status updates from your family, friends or other sources that you like. Or post your own status updates and share them with the rest of the world.\n
+StatusPage.Start: Start using Heleus Status
+StatusPage.StartInfo: You can start using Heleus Status now. Have a look at the explore section and search for accounts that you like and subscribe them. Afterwards, you will always get their latest status updates.\n\nOr start to post your own status updates and share them with the rest of the world.
+StatusPage.RecentUpdates: Recent Updates
+StatusPage.ViewedUpdates: Viewed Updates
+StatusPage.More: More
+
+
+WritePage.Title: Write
+WritePage.Auth: Authorize Heleus Status
+WritePage.AutorhizeInfo: Before you can start to write your own messages, you must authorize Heleus Status with your Heleus account.
+WritePage.Authorize: Start Authorization
+WritePage.NewMessage: Write Message
+WritePage.Message: Message
+WritePage.ChooseImage: Choose Image
+WritePage.SendMessage: Send Message
+WritePage.Misc: More
+WritePage.Messages: Your Messages
+WritePage.Profile: Your Profile
+WritePage.Share: Share Profile
+WritePage.Copy: Copy Profile Link
+WritePage.ConfirmSend: Do you want to submit your message?
+WritePage.MessageSent: Your message was sent.
+WritePage.RemoveImage: Remove Image
+WritePage.ImageAction: Image
+
+
+ExplorePage.Title: Explore
+ExplorePage.Search: Search Accounts
+ExplorePage.SearchTerm: Account Name or Id
+ExplorePage.SearchButton: Start
+ExplorePage.Popular: Popular Accounts
+ExplorePage.Recent: Recent Accounts
+ExplorePage.New: New Accounts
+ExplorePage.NotFound: No accounts found.
+
+
+MoreUpdatesPage.Title: More Updates
+
+
+StatusAccountPage.Title: Status Account
+StatusAccountPage.Subscription: Follow Account
+StatusAccountPage.Subscribe: Subscribe Account
+StatusAccountPage.Notification: Get Notifications
+StatusAccountPage.Message: Message
+StatusAccountPage.LatestMessages: Lastest Messages
+StatusAccountPage.SubscriptionChanged: Your subscription was successfully changed.
+StatusAccountPage.ConfirmSubscribe: Subscribe Account?
+StatusAccountPage.ConfirmUnsubscribe: Unsubscribe Account?
+StatusAccountPage.NotifyChanged: Your notification settings was successfully changed.
+StatusAccountPage.EnableNotify: Enable Notifications?
+StatusAccountPage.DisableNotify: Disable Notifications?
+StatusAccountPage.NoMessageFound: No messages found
+
+SubscriptionsPage.Title: Subscriptions
+SubscriptionsPage.Subscriptions: Your Subscriptions
+SubscriptionsPage.NoSubscriptions: Currently, you have no active subscriptions.
+
+
+## ENUMS
+
+ServiceUserCodes: Service error: {0} (Code {1}).
+ServiceUserCodes.None: Ok
+ServiceUserCodes.InvalidTransaction: Invalid transaction

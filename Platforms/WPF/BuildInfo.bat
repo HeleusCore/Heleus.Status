@@ -1,0 +1,3 @@
+SET _SHORTNAME=Status
+SET _EXEC=status
+SET _VERSION="0.1.0"
